@@ -5,6 +5,7 @@
 }
 body {
     background-color: #11A7AF ;
+    
 }
 
 ul{
@@ -34,6 +35,7 @@ a {
     
 }
 
+
 .navbar ul{
     display: flex;
     flex-direction: row;
@@ -47,7 +49,7 @@ a {
 
 }
 
-li a:hover{
+nav ul li a:hover{
     border: 1px #fff solid;
     box-shadow: 5px 10px 18px #ffffff
 }
@@ -75,14 +77,16 @@ li a:hover{
     top: 30%;
     left: 40%;
     color: white;
+    
 
 
 }
 .text h2{
-    font-size: 50px;
+    font-size: 40px;
+    font-family: cursive;
 }
 .text p{
-    font-size: 40px;
+    font-size: 30px;
 }
 footer{
     position: absolute;
@@ -104,5 +108,16 @@ footer ul {
 footer ul li {
     margin: 8px;
     font-size: 25px;
+    
+}
+
+.fab:hover {
+    cursor: pointer;
+    transition: 0.8s;
+    transform: rotateY(180deg);
+}
+
+footer ul li a{
+    color: white;
     
 }
