@@ -67,6 +67,7 @@ li a:hover{
     padding: 80px 40px 40px;
     background: rgba(0,0,0,0.5);
     border-radius: 10px;
+    color: #fff;
     box-shadow: 0 15px 25px rgba(0,0,0,0.5);
 }
 
@@ -110,6 +111,7 @@ li a:hover{
 form .input-group input:valid + label{
 transform: translateY(-20px); 
 font-size: .8rem;
+color: #e65c00;
 }
 
 .submit-btn{
